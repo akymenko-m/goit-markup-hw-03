@@ -28,6 +28,8 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -129,7 +131,11 @@ img {
     text-align: center;
 }
 
-.hero-title {
+.hero-title {    
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
@@ -141,7 +147,6 @@ img {
 
 .hero-button {
     display: inline-block;
-    text-align: center;
     padding: 10px 32px;
     min-width: 216px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -182,7 +187,7 @@ img {
 } */
 
 .section-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -197,7 +202,7 @@ img {
 }
 
 .our-features .section-subtitle {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .our-features .description {
@@ -232,22 +237,20 @@ img {
 }
 
 .our-team-members {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     background-color: var(--white-color);
 }
 
 .members-name {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    
 }
 
 .position {
-    text-align: center;
-    padding-bottom: 30px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
